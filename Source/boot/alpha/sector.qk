@@ -1,0 +1,9 @@
+import "SECTORATLOAD";
+
+Sector [def:afcc] 0 = 0;
+if Sector {
+  print("sector loaded");
+}
+else {
+  print("sector failed");
+}
