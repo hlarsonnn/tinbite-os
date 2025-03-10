@@ -1,0 +1,5 @@
+definedfile:QK;
+
+definedata("Sector") {
+  memget(ALLFREE:100);
+}
