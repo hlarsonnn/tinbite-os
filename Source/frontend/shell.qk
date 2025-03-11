@@ -1,1 +1,34 @@
 // QK Shell
+
+if $firsttimerun == True {
+  global user = input("Enter an username: ");
+  global password = input("Enter a password: ");
+}
+
+loginuser = input("Enter username: ");
+if loginuser == user {
+  loginpassword = input("Enter password: ");
+  if loginpassword != password {
+    print("Incorrect Password! Try again by rebooting!");
+  }
+  else {
+    isverified = True;
+  }
+}
+else {
+  print("Invalid Username! Try again by rebooting!");
+}
+
+
+isloop:"start" if isverified == True {
+  c = input(loginuser, "$tinbite   ");
+  pc = parse(c, sep=" ");
+  if pc[0] == "hi" or "hello" {
+    print("Hello ", loginuser, "!");
+    l:"start";
+  }
+  else {
+    print("! Command Not Recognized      TINBITE");
+    l:"start";
+  }
+}
