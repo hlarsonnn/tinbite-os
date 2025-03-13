@@ -32,3 +32,6 @@ isloop:"start" if isverified == True {
     l:"start";
   }
 }
+else {
+  return "User is not verified!";
+}
