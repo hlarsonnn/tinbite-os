@@ -1,5 +1,5 @@
 import tbfs;
 
 function createffolder(foldername) {
-  tbfs.DataType.Store.Allocate(foldernmae, CanStore=True);
+  tbfs.DataType.Store.Allocate(foldername, CanStore=True);
 }
