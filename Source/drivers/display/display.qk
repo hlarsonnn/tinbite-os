@@ -1,1 +1,6 @@
+// this is some serious work which if altered can make your os not work
+
+$DEVICE DISPLAY = $OBJECT:DISPLAY;
+$RENDERED RENDER = DISPLAY:256;
+$USE USAGE = $FILESALL:...;
 
