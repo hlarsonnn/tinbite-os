@@ -1,0 +1,7 @@
+import auth-img from "https://plus.auth/embed/plus/plus.qk";
+import random;
+import tk;
+
+int ImageForSession = randomint(1, 924);
+AuthImage Image = ImageForSession;
+
